@@ -13,7 +13,7 @@ public class atmsim extends JFrame {
     private Connection conn;
     private String dbUrl = "jdbc:mysql://localhost:3306/atm_database";
     private String dbUser = "root";
-    private String dbPassword = "root1234";
+    private String dbPassword = ""; //Enter your Wampserver or MySQL server password if present
 
     private JTextField loginField;
     private JPasswordField passwordField;
